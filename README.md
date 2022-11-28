@@ -1,2 +1,2 @@
 # BOopdracht2
-# pizza
+# bij deze opdracht moesten wij een website maken voor het Game museum . 
