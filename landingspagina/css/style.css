@@ -104,3 +104,19 @@ body{
     grid-row: 3/11;
     font-size: 2rem;
 }
+
+.images{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20rem;
+    padding-bottom: 0;
+    padding-top: 10rem;
+}
+
+
+.image{ 
+    width: 30rem;
+    height: 50rem;
+    border-radius: 6rem;
+}
