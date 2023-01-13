@@ -14,7 +14,8 @@ let deltaT = 0;
 let acc = 0.001;
 let speed = 0;
 let maxSpeed = 0.2;					//tijdsduur van frame
-function update(time){      
+function update(time){    
+    ctx.clearRect(0,0,canvas.width, canvas.height);  
     if(previousT != 0){
         deltaT = time - previousT;	//bereken tijdsduur van frame
     }
