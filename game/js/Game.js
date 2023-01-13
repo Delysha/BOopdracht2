@@ -23,10 +23,9 @@ function update(time){
     if(speed < 0)speed = 0;					//nooit achteruit
     if(speed > 0 && inputVector.y == 0) speed-=0.001;	//langzaam snelheid verminderen
     x+= speed * deltaT;				//compenseer frame drops!
-    drawShip(x,y,size,"green");
+    drawShip(x,y,size,"red");
     previousT = time;
     window.requestAnimationFrame(update);
-    
 
 }
 window.requestAnimationFrame(update);
@@ -37,8 +36,7 @@ function drawShip(x, y, size, color) {				//Vierkantje tekenen
     ctx.fillStyle = color;
     ctx.beginPath();
     ctx.moveTo(x, y);
-    ctx.lineTo(x + size, y);
-    ctx.lineTo(x + size, y + size);
+    ctx.lineTo(x + size *2, y +size *0.5);
     ctx.lineTo(x, y + size);
     ctx.lineTo(x, y);
     ctx.fill();
