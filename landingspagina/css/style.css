@@ -28,6 +28,7 @@ body{
     padding-right: 4rem;
 }
 
+
 .headerTitle{
     color: white;
     text-transform: uppercase;
@@ -113,12 +114,12 @@ body{
     justify-content: space-between;
     justify-content: center;
     align-items: center;
-    padding: 15rem;
+    padding: 10rem;
     padding-bottom: 10rem;
     padding-top: 10rem;
     flex-shrink: 1;
     flex-wrap: wrap;
-    gap: 7rem;
+    gap: 5rem;
 }
 
 
