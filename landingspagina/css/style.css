@@ -164,3 +164,19 @@ canvas{
     width: 50rem;
     margin: 10rem;
 }
+
+
+.footer{
+    height: 40rem;
+    background-color: black;
+}
+
+.openingstijden{
+    
+}
+.openingstijden__h4{
+    color: white;
+}
+.openingstijden__dagen{
+    color: white;
+}
