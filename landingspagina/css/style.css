@@ -121,7 +121,6 @@ body{
     gap: 5rem;
 }
 
-
 .image{ 
     width: 40rem;
     height: 50rem;
@@ -209,5 +208,19 @@ canvas{
     }
     canvas{
         display: none;
+    }
+    .image__2{
+        display: none;
+    }
+    .image__3{
+        display: none;
+    }
+    .image{
+        width: 50rem;
+        height: 60rem;
+    }
+    .textBlocks{
+        margin: 5rem;
+        padding: 1rem;
     }
 }

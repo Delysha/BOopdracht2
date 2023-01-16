@@ -1,11 +1,5 @@
 let canvas = document.getElementById("game");
 let ctx = canvas.getContext("2d");
-ctx.fillStyle = "red";
-ctx.strokeStyle = "black";
-
-
-
-
 let x = 100;								//beginposities
 let y = 100;
 let size = 10;
@@ -14,6 +8,11 @@ let deltaT = 0;
 let acc = 0.001;
 let speed = 0;
 let maxSpeed = 0.2;					//tijdsduur van frame
+ctx.fillStyle = "red";
+ctx.strokeStyle = "black";
+
+
+
 function update(time){    
     ctx.clearRect(0,0,canvas.width, canvas.height);  
     if(previousT != 0){
