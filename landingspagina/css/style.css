@@ -26,13 +26,13 @@ body{
     padding: 1rem;
     padding-left: 4rem;
     padding-right: 4rem;
-}
+}   
 
-
-.headerTitle{
+.headerTitle > a{
+    text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-size: 400%;
+    font-size: 300%;
     font-weight: 400;
 }
 
@@ -41,7 +41,7 @@ body{
     background: transparent;
     color: white;
     border: none;
-    font-size: 150%;
+    font-size: 300%;
     letter-spacing: 2px;
 }
 
@@ -105,7 +105,6 @@ body{
     border-radius: 2.5rem;
     grid-column: 8/12;
     grid-row: 3/11;
-    font-size: 2rem;
     font-size: 1.45vw;
 }
 
@@ -167,16 +166,48 @@ canvas{
 
 
 .footer{
-    height: 40rem;
+    height: fit-content;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .openingstijden{
-    
+
 }
+
 .openingstijden__h4{
     color: white;
 }
 .openingstijden__dagen{
     color: white;
+}
+
+.footer__title{
+    
+}
+
+.footer__addres{
+    color: white;
+}
+
+
+@media screen and (max-width: 75rem){
+    html{
+        font-size: 62.5%;
+    }
+    .header{
+        font-size: 30%;
+        height: fit-content;
+    }
+    .container{
+        height: 40vh;
+    }
+    .text-block{
+        display: none;
+    }
+    canvas{
+        display: none;
+    }
 }
