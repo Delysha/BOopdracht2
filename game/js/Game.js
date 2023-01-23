@@ -149,16 +149,16 @@ function keyDown(/** @type {KeyboardEvent} */ ev) {
     }
 
     switch (ev.keyCode) {
-        case 32: // space bar (shoot laser)
+        case 16: // space bar (shoot laser)
             shootLaser();
             break;
-        case 37: // left arrow (rotate ship left)
+        case 65: // left arrow (rotate ship left)
             ship.rot = SHIP_TURN_SPD / 180 * Math.PI / FPS;
             break;
-        case 38: // up arrow (thrust the ship forward)
+        case 87: // up arrow (thrust the ship forward)
             ship.thrusting = true;
             break;
-        case 39: // right arrow (rotate ship right)
+        case 68: // right arrow (rotate ship right)
             ship.rot = -SHIP_TURN_SPD / 180 * Math.PI / FPS;
             break;
     }
