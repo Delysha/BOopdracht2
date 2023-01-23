@@ -171,7 +171,7 @@ function keyUp(/** @type {KeyboardEvent} */ ev) {
     }
 
     switch (ev.keyCode) {
-        case 32: // space bar (allow shooting again)
+        case 16: // space bar (allow shooting again)
             ship.canShoot = true;
             break;
         case 37: // left arrow (stop rotating left)
