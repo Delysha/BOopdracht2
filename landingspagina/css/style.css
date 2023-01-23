@@ -122,8 +122,8 @@ body{
 }
 
 .image{ 
-    width: 40rem;
-    height: 50rem;
+    width: 25vw;
+    height: auto;
     border-radius: 6rem;
 }
 
@@ -170,10 +170,7 @@ canvas{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.openingstijden{
-
+    padding: 2rem;
 }
 
 .openingstijden__h4{
@@ -181,10 +178,6 @@ canvas{
 }
 .openingstijden__dagen{
     color: white;
-}
-
-.footer__title{
-    
 }
 
 .footer__addres{
