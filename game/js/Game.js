@@ -174,13 +174,13 @@ function keyUp(/** @type {KeyboardEvent} */ ev) {
         case 16: // space bar (allow shooting again)
             ship.canShoot = true;
             break;
-        case 37: // left arrow (stop rotating left)
+        case 65: // left arrow (stop rotating left)
             ship.rot = 0;
             break;
-        case 38: // up arrow (stop thrusting)
+        case 87: // up arrow (stop thrusting)
             ship.thrusting = false;
             break;
-        case 39: // right arrow (stop rotating right)
+        case 68: // right arrow (stop rotating right)
             ship.rot = 0;
             break;
     }
