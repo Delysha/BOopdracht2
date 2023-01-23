@@ -105,7 +105,7 @@ body{
     border-radius: 2.5rem;
     grid-column: 8/12;
     grid-row: 3/11;
-    font-size: 1.45vw;
+    font-size:1.8vw;
 }
 
 .images{
@@ -148,7 +148,7 @@ canvas{
 .textBlocksContainer{
     display: flex;
     justify-content: space-between;
-
+    justify-content: center;
 }
 
 .textBlocks{
@@ -201,7 +201,7 @@ canvas{
         height: fit-content;
     }
     .container{
-        height: 40vh;
+        height: 70vh;
     }
     .text-block{
         display: none;
@@ -219,8 +219,17 @@ canvas{
         width: 50rem;
         height: 60rem;
     }
+    .textBlocksContainer{
+        flex-wrap: wrap;
+        
+    }
     .textBlocks{
         margin: 5rem;
         padding: 1rem;
+        width: 70rem;
+    }
+    .footer{
+        flex-wrap: wrap;
+        gap: 2rem;
     }
 }
